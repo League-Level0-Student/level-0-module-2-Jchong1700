@@ -1,0 +1,21 @@
+
+Calling Methods
+Checkpoint
+1. Write code to call the printMessage method shown below
+	
+	printMessage();
+          void printMessage() { 
+                    System.out.println("message");
+           } 
+           
+2. Write code to call the setName method shown below
+	setName("Joan");
+          void setName(String name) { 
+                    this.name = name;
+           } 
+           
+3. Write code to call the getNumber method shown below
+int a = getNumber();
+          int getNumber() { 
+                    return number;
+           } 

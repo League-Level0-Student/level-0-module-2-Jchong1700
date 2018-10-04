@@ -1,0 +1,22 @@
+
+Random Checkpoint
+On paper, write code that does the following: 
+1. Get a random whole number that is less than 1,000.
+
+Random wholeNumber = new Random();
+int number = wholeNumber.nextInt(999);
+
+2. Get another random whole number that is less than 900.
+
+
+int newNumber = wholeNumber.nextInt(899);
+
+3. Print:
+          a) What happens when you add the numbers , e.g. 99 + 64 = 163 
+          
+          System.out.println(number += newNumber);
+          
+          b) What happens when you subtract the numbers , e.g. 99-64 = 35 
+
+          System.out.println(number -= newNumber);
+          
